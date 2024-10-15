@@ -8,4 +8,4 @@ class DateConverter {
      fun fromTimeStamp(value : Long) : Date = Date(value)
     @TypeConverter
     fun dateToTimeStamp(date : Date) : Long = date.time
-} //wow
+} 
